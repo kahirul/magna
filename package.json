@@ -1,0 +1,22 @@
+{
+  "name": "magna",
+  "version": "1.0.0",
+  "description": "Manga reader",
+  "main": "main.js",
+  "repository": {
+    "url": "https://github.com/kahirul/magna",
+    "type": "git"
+  },
+  "author": "Khairul",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "1.5.5"
+  },
+  "dependencies": {
+    "osmosis": "^1.1.2"
+  },
+  "postinstall": "install-app-deps"
+}
